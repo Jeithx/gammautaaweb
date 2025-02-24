@@ -1,0 +1,129 @@
+/* GENEL STİLLER */
+
+/* Koyu arka plan, gradient veya düz renk kullanabiliriz. */
+body {
+    margin: 0;
+    padding-top: 45px; /* Sabit navbar için üst boşluk */
+    font-family: 'Roboto', Arial, sans-serif; /* Örnek bir gaming/e-spor hissi için */
+    background: #1c1c1c; /* Tamamen koyu bir arka plan */
+    color: #ffffff; /* Metin rengi */
+}
+
+/* Navbar */
+.navbar-dark.bg-dark {
+    background-color: #0d0d0d !important; /* Daha koyu bir ton */
+    border-bottom: 2px solid #ff6600; /* Turuncu bir alt çizgi */
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin: 0 5px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ff6600 !important;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #ff6600 !important; /* Logo yazısını turuncu yapalım */
+}
+
+/* HERO BÖLÜMÜ */
+.hero-section {
+    background: url('../img/esports-bg.jpg') no-repeat center center; /* e-spor temalı bir arka plan */
+    background-size: cover;
+    color: #ffffff;
+    padding: 150px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    border-radius: 0; /* Düz kenarlar */
+    min-height: 80vh; /* Ekranın büyük bir kısmını kaplasın */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Hero başlık */
+.hero-section h1.display-4 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-section p.lead {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn-primary {
+    background-color: #ff6600;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #cc5200;
+}
+
+/* Kartlar */
+.card {
+    background-color: #2b2b2b; /* Koyu kart rengi */
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #ffffff; /* Yazılar beyaz */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #ff6600;
+}
+
+/* Kart başlığı */
+.card .card-title {
+    color: #ff6600;
+}
+
+/* Projeler, Etkinlikler bölümü */
+#projects, #events {
+    background-color: #1c1c1c;
+    border-radius: 0;
+    padding: 40px;
+    box-shadow: none;
+}
+
+/* Form Stilleri */
+#contactForm input,
+#contactForm textarea {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+    outline: none;
+    border-color: #ff6600;
+}
+
+/* Butonlar */
+.btn-primary {
+    background-color: #ff6600;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #cc5200;
+}
+
+/* Footer */
+footer.bg-dark {
+    background-color: #0d0d0d !important;
+    border-top: 2px solid #ff6600;
+}
